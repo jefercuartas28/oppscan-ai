@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>OppScan AI</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f4f4f4;
+      padding:40px;
+    }
+    .container{
+      max-width:900px;
+      margin:auto;
+    }
+    .card{
+      background:white;
+      border-radius:20px;
+      padding:25px;
+      margin-bottom:20px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1{
+      color:#111;
+    }
+    button{
+      background:black;
+      color:white;
+      border:none;
+      padding:12px 20px;
+      border-radius:10px;
+      cursor:pointer;
+    }
+    input{
+      width:100%;
+      padding:12px;
+      margin-top:10px;
+      border-radius:10px;
+      border:1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="card">
+    <h1>OppScan AI</h1>
+    <p>Automatización inteligente del registro de facturas mediante OCR e IA.</p>
+  </div>
+
+  <div class="card">
+    <h2>1. Inicio de sesión</h2>
+    <input placeholder="Correo empresarial">
+    <input placeholder="Contraseña" type="password">
+    <br><br>
+    <button>Ingresar</button>
+  </div>
+
+  <div class="card">
+    <h2>2. Cargar factura</h2>
+    <p>Seleccione una imagen o PDF de factura.</p>
+    <button>Subir archivo</button>
+  </div>
+
+  <div class="card">
+    <h2>3. OCR + IA</h2>
+    <p>Extrayendo automáticamente:</p>
+    <ul>
+      <li>NIT</li>
+      <li>Proveedor</li>
+      <li>Fecha</li>
+      <li>Valor total</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4. Validación</h2>
+    <input value="Proveedor XYZ SAS">
+    <input value="901827595-9">
+    <input value="$1.250.000">
+    <br><br>
+    <button>Confirmar registro</button>
+  </div>
+
+  <div class="card">
+    <h2>✅ Registro exitoso</h2>
+    <p>La factura fue integrada correctamente en Opp-Cartera.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
